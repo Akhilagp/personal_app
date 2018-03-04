@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:background="@mipmap/bla">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.lenovo.resumae.Edu_proj">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/edutv11"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/edutv11"
+            android:layout_gravity="center"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="25dp"
+            android:background="#000000"
+            android:src="@drawable/grad" />
+
+        <TextView
+            android:id="@+id/edutv1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/i1"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/i1"
+            android:layout_toRightOf="@+id/i1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ff0099cc"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/edutv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/edutv3"
+            android:layout_alignRight="@+id/edutv3"
+            android:layout_below="@+id/i1"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu2"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#11ffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/edutv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu3"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/edutv4"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/edutv5"
+            android:layout_alignRight="@+id/edutv5"
+            android:layout_below="@+id/edutv3"
+            android:layout_gravity="center"
+            android:layout_marginTop="27dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/edu4"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#11ffff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edutv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu5"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/i1"
+            android:layout_alignStart="@+id/i1"
+            android:layout_below="@+id/edutv5"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="#000000"
+            android:src="@drawable/app11"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/edutv6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/i2"
+            android:layout_gravity="center"
+            android:layout_marginBottom="26dp"
+            android:layout_toEndOf="@+id/i2"
+            android:layout_toRightOf="@+id/i2"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu6"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ff0099cc"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/edutv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv6"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu7"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#11ffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/edutv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu8"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edutv9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv8"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu9"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#11ffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/edutv10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv9"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu10"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edutv11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv10"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu11"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#11ffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/edutv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv11"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu12"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+
+        <TextView
+
+            android:id="@+id/edutv13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv12"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu13"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="#11ffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+
+            android:id="@+id/edutv14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv13"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="@string/edu14"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:id="@+id/edutv15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv14"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu15"
+            android:textAlignment="center"
+            android:textColor="#11ffff"
+            android:textAllCaps="true"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+
+            android:id="@+id/edutv16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edutv15"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/edu16"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</ScrollView>

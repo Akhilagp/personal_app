@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Resume</string>
+    <string name="about">About me</string>
+    <string name="me" formatted="true">Hello World !\n\nI am Akhila,a tech enthusiast with interest in Machine Learning,Android App Development and
+Creative Writing.</string>
+    <string name="interests">Education and Experience</string>
+    <string name="projects">Skills and Projects </string>
+    <string name="website">"Select *\nfrom World\nwhere \"someone\"\nlike %ME%\n\n...\n/>no results "</string>
+    <string name="contact">9445871387</string>
+    <string name="mail">akhilapadmanaban@gmail.com</string>
+    <string name="address">No:26,Viswakamal Apartments,\n4th main road Extn,Kotturpuram,\nChennai-600085</string>
+    <string name="webdialogue">Kindly Spare a few minutes to read my writings  @</string>
+    <string name="ezhu">Ezhuthani</string>
+    <string name="edu1">EDUCATION</string>
+    <string name="edu2">College of Engineering,Guindy</string>
+    <string name="edu3">Bachelor of Engineering in Computer Science(2016-Present)</string>
+    <string name="edu4">Sethu Bhaskara Matric Hr Sec School</string>
+    <string name="edu5">Higher Secondary(2014-2016)</string>
+    <string name="edu6">EXPERIENCE</string>
+    <string name="edu7">CEG Tech Forum</string>
+    <string name="edu8">Co-ordinator for SAMSUNG PAY Workshop in Kurukshetra'18</string>
+    <string name="edu9">Capitalize,the E-Cell of Anna University</string>
+    <string name="edu10">Senior Officer of Operations</string>
+    <string name="edu11">InfoQuest Club of Sethu Bhaskara</string>
+    <string name="edu12">Vice President</string>
+    <string name="edu13">Computer Science and Engineering Association</string>
+    <string name="edu14">Industrial Relations Team</string>
+    <string name="edu15">MyCaptain-The Climber</string>
+    <string name="edu16">Marketing Intern</string>
+    <string name="skilleh">while(!(succeed==try()));</string>
+    <string name="skilltv2">\u2724 \t C and C++ : Enough rope to shoot yourself in the foot.</string>
+    <string name="skilltv3">\u2724 \t Java : write once, run anywhere</string>
+    <string name="skilltv4">\u2724 \t Python : (P)rogrammers (Y)earning (T)o (H)omestead (O)ur (N)oosphere.</string>
+    <string name="skilltv5">\u2724 \t MS Office : Be What\'s next</string>
+    <string name="skilltv6">\u2724 \t MySql</string>
+    <string name="skilltv7">\u2724 \t HTML and CSS</string>
+    <string name="proja">PROJECTS</string>
+    <string name="proj1">\u25C8 \t Super Market Billing System\n Using PYTHON</string>
+    <string name="proj2">\u25C8 \t Data Cleansing and Structuring\n Using PYTHON</string>
+    <string name="proj3">\u25C8 \t Online Tourist Bus ticket Booking System\n Using C++</string>
+    <string name="proj4">\u25C8 \t Online Quiz\n Using JAVA</string>
+    <string name="proj5">\u25C8 \t Fitness and Nutrition Tracker\n Using MYSQL and JAVA</string>
+
+
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/bl">
+
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|fill_horizontal"
+    tools:context="com.example.lenovo.resumae.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="201dp"
+            android:layout_height="187dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/me"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#ff0099cc"
+            android:textSize="19sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/akhila" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/babt"
+        android:layout_alignStart="@+id/babt"
+        android:layout_below="@+id/ll1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/website"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#11ffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/babt"
+        android:background="@drawable/button_shape"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/babt2"
+        android:layout_alignStart="@+id/babt2"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="44dp"
+        android:onClick="buttonAbout"
+        android:text="@string/about"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="#ff0099cc"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/babt2"
+        android:background="@drawable/button_shape"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/babt"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/interests"
+        android:onClick="buttonEdu"
+        android:textColor="#ff0099cc"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/babt3"
+        android:background="@drawable/button_shape"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/babt2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/projects"
+        android:textAllCaps="true"
+        android:textColor="#ff0099cc"
+        android:onClick="buttonskill"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/babt3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Social Media Links"
+        android:textAlignment="center"
+        android:textColor="#11ffff"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+
+    <LinearLayout android:id="@+id/ll5"
+        android:layout_below="@id/text3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageButton
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="53dp"
+            android:layout_marginRight="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/github_compressor"
+            android:onClick="buttongit"/>
+
+        <ImageButton
+            android:layout_marginRight="60dp"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/linkedin"
+            android:onClick="buttonlinkedin"/>
+
+        <ImageButton
+            android:layout_marginRight="60dp"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fb"
+            android:onClick="buttonfb"/>
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
